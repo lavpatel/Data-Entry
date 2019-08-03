@@ -1,0 +1,91 @@
+body{
+  background-color: #232323;
+  margin: 0;
+  font-family: 'Montez',cursive;
+ }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid;
+  border-style: ridge;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid;
+  border-style: ridge;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #16D729;
+  color: black;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0A8422;
+}
+
+/* div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+.container {
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.jumbotron {
+  background-color: #7DA9FD;
+  text-align: center;
+  font-size: 350%;
+  margin: 0 auto;
+}
+
+.notselected{
+  display: none; 
+}
+
+#stripe{
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+button{
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+}
+
+button:hover{
+  color:white;
+  background: #7DA9FD;
+}
